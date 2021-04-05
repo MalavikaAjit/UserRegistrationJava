@@ -5,7 +5,6 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class UserRegMain {
-    //validating user input first name
     public static void validateFirstName() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter first name");
@@ -28,14 +27,24 @@ public class UserRegMain {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter email");
         String email =scan.next();
-        String pattern = "^[a-zA-Z0-9]+([.+_-]{0,1}+[a-zA-Z0-9])*+[@]+[a-zA-Z]+[.]+[a-zA-Z]{2,4}+([.]{1}+[a-zA-Z]{0,2})*";
+        String pattern ="^[a-zA-Z0-9]+([.+_-]{0,1}+[a-zA-Z0-9])*+[@]+[a-zA-Z]+[.]+[a-zA-Z]{2,4}+([.]{1}+[a-zA-Z]{0,2})*";
         System.out.println("email is " +email);
         System.out.println("Is the email valid? " + email.matches(pattern));
+
+    }
+    public static void validatePhoneno() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter Phone number");
+        String phoneNo =scan.next();
+        String pattern = "^([0-9]{2})[ ]([1-9]{1}[0-9]{9})$";
+        System.out.println("phone no is " +phoneNo);
+        System.out.println("Is the phone no valid? " + phoneNo.matches(pattern));
 
     }
     public static void main(String[] args) {
         validateFirstName();
         validateLastName();
         validateEmail();
+        validatePhoneno();
     }
 }
