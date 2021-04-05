@@ -24,8 +24,18 @@ public class UserRegMain {
         System.out.println("Is the Last name valid? " + lastName.matches(pattern));
 
     }
+    public static void validateEmail() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter email");
+        String email =scan.next();
+        String pattern = "^[a-zA-Z0-9]+([.+_-]{0,1}+[a-zA-Z0-9])*+[@]+[a-zA-Z]+[.]+[a-zA-Z]{2,4}+([.]{1}+[a-zA-Z]{0,2})*";
+        System.out.println("email is " +email);
+        System.out.println("Is the email valid? " + email.matches(pattern));
+
+    }
     public static void main(String[] args) {
         validateFirstName();
         validateLastName();
+        validateEmail();
     }
 }
