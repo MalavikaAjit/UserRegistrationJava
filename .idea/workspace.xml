@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94fb4d41-23e2-439d-bc87-18f43b052ee6" name="Default Changelist" comment="" />
+    <list default="true" id="94fb4d41-23e2-439d-bc87-18f43b052ee6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/java/UserRegTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserRegTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +71,10 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.company" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\UserRegistrationJava\src" />
+      <recent name="C:\Users\HP\IdeaProjects\UserRegistrationJava\src\main" />
     </key>
   </component>
   <component name="RunAnythingCache">
