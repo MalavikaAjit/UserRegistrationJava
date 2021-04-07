@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;
-
+git
 public class UserRegMain {
     //validating user input first name
     public static void validateFirstName() {
