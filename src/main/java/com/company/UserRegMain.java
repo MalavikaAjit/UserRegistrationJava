@@ -1,5 +1,10 @@
 package com.company;
 
+
+
+import java.util.Scanner;
+import java.util.regex.Pattern;
+
 public class UserRegMain {
 
     public static boolean validateFirstName(String firstName){
