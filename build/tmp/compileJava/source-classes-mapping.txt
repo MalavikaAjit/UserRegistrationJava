@@ -1,2 +1,4 @@
+com/company/UserRegMainException.java
+ com.company.UserRegMainException
 com/company/UserRegMain.java
  com.company.UserRegMain

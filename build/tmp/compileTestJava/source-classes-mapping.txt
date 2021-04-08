@@ -1,2 +1,2 @@
-UserRegTest.java
- UserRegTest
+com/company/UserRegTest.java
+ com.company.UserRegTest
