@@ -22,7 +22,7 @@ public class UserRegTest {
            boolean result = userRegMain.validateFirstName("malavika");
        }
        catch (UserRegMainException e) {
-           Assert.assertEquals("Invalid first name ", e.getMessage());
+           Assert.assertEquals("Invalid first name", e.getMessage());
        }
     }
     @Test
@@ -31,7 +31,7 @@ public class UserRegTest {
            boolean result = userRegMain.validateLastName("Ajit");
        }
        catch (Exception e) {
-           Assert.assertEquals("Invalid last name " ,e.getMessage());
+           Assert.assertEquals("Invalid last name",e.getMessage());
        }
     }
 
