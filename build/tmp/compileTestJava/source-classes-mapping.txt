@@ -1,2 +1,4 @@
 com/company/UserRegTest.java
  com.company.UserRegTest
+com/company/EmailParameterizedTest.java
+ com.company.EmailParameterizedTest
